@@ -1,0 +1,855 @@
+*{ margin:0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+/****** Header ******/
+/**** Box1 ****/
+
+.navbar{
+height: 67px;
+width: 100%;
+background-color:#fff;
+color:black;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-top:0px;
+position: fixed;
+
+margin-bottom: 10px;
+
+}
+
+
+.nav-logo
+{
+width:100px;
+height: 50px;
+box-sizing: border-box;
+
+}
+
+
+.logo{
+box-sizing: border-box;
+background-image: url("Flipkrt_logo.png");
+background-size: cover;
+height: 43px;
+width: 100%;
+}
+
+
+.border{
+   border:1.5px solid transparent ; 
+}
+
+
+/**** BOX 2 ****/
+
+
+.nav-search{
+    display: flex;
+    
+    width: 620px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 6px;
+
+
+
+
+}
+
+
+
+.Search-input{ width: 100%;
+    font-size: 1rem;
+    border: none;
+background-color: #f0f5ff;
+color: rgb(133, 133, 133) ;
+border-top-right-radius:6px;
+border-bottom-right-radius: 6px;
+
+}
+
+
+
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color:#f0f5ff;
+    border-top-left-radius:6px;
+    border-bottom-left-radius: 6px;
+    color: rgb(133, 133, 133);
+    
+    
+    
+    }
+
+  .nav-login{
+width: 150px;
+display:flex;
+height: 40px;
+justify-content: center;
+align-items: center;
+  } 
+
+.login-icon{
+    height: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ margin-right: 10px;
+   font-size: 1.5rem;
+    
+    
+}
+
+.login-button{
+   
+    height: 40px;
+    display: flex;
+    font-size:1.5rem;
+    justify-content: center;
+   align-items: center;
+   margin-left: 10px;
+  
+}
+  .dropdown{
+    margin-left: 10px;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+  }
+
+
+
+
+.my-cart{
+    height: 40px;
+width:100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.cart-icon{
+
+height:40px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+ margin-right: 10px;
+   font-size: 1.5rem;
+    
+
+
+}
+.cart-option{
+    height:40px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+ margin-right: 10px;
+   font-size: 1.2rem;
+    
+
+}
+
+.nav-deal{height: 40px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon{
+    height:40px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+ margin-right: 10px;
+   font-size: 1.5rem;
+
+}
+
+.become-a-dealer{
+    height:40px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+ margin-right: 10px;
+   font-size: 1.2rem;
+}
+
+
+.nav-menu{
+    height: 50px;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.8rem;
+
+
+}
+
+
+
+/***** Panel section****/
+
+.panel-papa{
+
+    margin-top: 2px;
+    height: 93px;
+    width: 100%;
+    background-color:#f0f5ff;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+margin-top: 0px;}
+
+
+
+
+
+
+
+.panel-section {
+    /* position: relative; */
+    /* top: 78px; */
+    /* z-index: -1; */
+    margin-top: 0px;
+    height: 151px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+.box-1{
+
+height: 80px;
+width: 80px;
+background-image:url("Grocery.webp") ;
+background-size: cover;
+
+}
+
+.box-1_text{
+margin-top: 75px;
+margin-left: 10px;
+
+
+
+
+}
+
+.box-2{
+
+    height: 80px;
+    width: 80px;
+    background-image:url("Mobbile.webp") ;
+    background-size: cover;
+    
+    }
+    
+    .box-2_text{
+    margin-top: 75px;
+    margin-left: 10px;}
+
+
+    .box-3{
+
+        height: 80px;
+        width: 80px;
+        background-image:url("Fashion.webp") ;
+        background-size: cover;
+        
+        }
+        
+        .box-3_text{
+        margin-top: 80px;
+        margin-left: 10px;}
+
+
+
+        .box-4{
+
+            height: 80px;
+            width: 80px;
+            background-image:url("Box4.webp") ;
+            background-size: cover;
+            
+            }
+            
+            .box-4_text{
+            margin-top: 75px;
+            margin-left: 10px;}
+            .box-5{
+
+                height: 80px;
+                width: 80px;
+                background-image:url("Box5.webp") ;
+                background-size: cover;
+
+                
+                
+                }
+                
+                .box-5_text p{
+              
+                    margin-top: 75px;
+                margin-left: 10px;
+            }
+
+
+
+
+                .box-6{
+
+                    height: 80px;
+                    width: 80px;
+                    background-image:url("Box6.webp") ;
+                    background-size: cover;
+                    
+                    }
+                    
+                    .box-6_text{
+                    margin-top: 75px;
+                    margin-left: 10px;}
+
+
+
+
+
+
+
+
+                    .box-7{
+
+                        height: 80px;
+                        width: 80px;
+                        background-image:url("Box7.webp") ;
+                        background-size: cover;
+                        
+                        }
+                        
+                        .box-7_text{
+                        margin-top: 75px;
+                        margin-left: 10px;}
+
+
+
+
+
+
+
+                        .box-8{
+
+                            height: 80px;
+                            width: 80px;
+                            background-image:url("Box8.webp") ;
+                            background-size: cover;
+                            
+                            }
+                            
+                            .box-8_text{
+                            margin-top: 75px;
+                            margin-left: 10px;}
+
+
+
+
+
+
+
+
+                            .box-9{
+
+                                height: 80px;
+                                width: 80px;
+                                background-image:url("Box9.webp") ;
+                                background-size: cover;
+                                
+                                }
+                                
+                                .box-9_text{
+                                margin-top: 75px;
+                                margin-left: 10px;}
+
+ .Hero_section_PAPA{
+height: 300px;
+width: 100%;
+ background-color:#f0f5ff ;
+ display: flex;
+justify-content: center;
+align-items: center;}                               
+
+.Hero_section{
+    margin-top: 10px;
+    height: 250px;
+    width: 100%;
+margin-bottom: 10px;
+background-color: white;
+background-image: url("Hero_section.webp");
+background-size: cover;
+
+
+}
+
+
+.Shopping_section{
+height: 450px;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+background-color: #f0f5ff;
+}
+
+.Best-of-electronics{
+
+height: 400px;
+width:80%;
+background-color:white;
+margin-right: 20px;
+
+
+
+
+}
+.items{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.Best-of-electronics h2{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.Travel{
+
+height:400px ;
+width:260px;
+background-color: green;
+background-image: url("Travel.webp");
+background-size: contain;
+
+
+}
+
+.BOX-1{
+
+height: 330px;
+width: 250px;
+background-image: url("CAMERAS2.jfif");
+background-size: contain;
+background-repeat: no-repeat;
+
+margin-top:10px ;
+padding-top: 20px;
+
+
+
+}
+
+.BOX-1 p{
+    margin-top: 200px;
+    font-size: 1.2rem;
+    margin-left: 40px;
+}
+.BOX-1 b{
+    margin-left: 40px;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+.BOX-2{
+
+    height: 330px;
+    width: 250px;
+    background-image: url("PRINTER.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    margin-top:10px ;
+    padding-top: 20px;
+    
+    
+    }
+
+    .BOX-2 p{
+        margin-top: 200px;
+        font-size: 1.2rem;
+        margin-left: 40px;
+    }
+    .BOX-2 b{
+        margin-left: 40px;
+        font-size: 1.3rem;
+    }
+    
+
+
+
+
+
+
+
+    .BOX-3{
+
+        height: 330px;
+        width: 250px;
+        background-image: url("monitors.webp");
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+        margin-top:10px ;
+        padding-top: 20px;
+        
+        
+        } 
+        
+        .BOX-3 p{
+            margin-top: 200px;
+            font-size: 1.2rem;
+            margin-left: 40px;
+        }
+        .BOX-3 b{
+            margin-left: 40px;
+            font-size: 1.3rem;
+        }
+         
+
+
+        .BOX-4{
+
+            height: 330px;
+            width: 250px;
+            background-image: url("keyboard.webp");
+            background-size: contain;
+            background-repeat: no-repeat;
+            
+            margin-top:10px ;
+            padding-top: 20px;
+            
+            
+            }
+
+            .BOX-4 p{
+                margin-top: 200px;
+                font-size: 1.2rem;
+                margin-left: 40px;
+            }
+            .BOX-4 b{
+                margin-left: 40px;
+                font-size: 1.3rem;
+            }
+            
+
+
+            .BOX-5{
+
+                height: 330px;
+                width: 250px;
+                background-image: url("trimmers.webp");
+                background-size: contain;
+                background-repeat: no-repeat;
+               
+                margin-top:10px ;
+                
+                padding-top: 20px;
+                
+                }     
+                
+                
+                .BOX-5 p{
+                    margin-top: 260px;
+                    font-size: 1.2rem;
+                    margin-left: 40px;
+                }
+                .BOX-5 b{
+                    margin-left: 40px;
+                    font-size: 1.3rem;
+                }
+                        
+.border:hover{
+   border: 1.5px solid Black;
+}
+.Beauty-food-more{
+
+    height: 400px;
+    width:100%;
+    background-color:white;
+    margin-right: 20px;
+    
+    
+    
+    
+    }
+    .items-2{
+        display:flex;
+        justify-content: space-evenly;}
+
+
+        .B-1{
+
+            height: 330px;
+            width: 250px;
+            background-image: url("B-1.jfif");
+            background-size: contain;
+            background-repeat: no-repeat;
+            
+            margin-top:10px ;
+            padding-top: 20px;
+            
+            
+            
+            }
+            
+            .B-1 p{
+                margin-top: 240px;
+                font-size: 1.2rem;
+                margin-left: 40px;
+            }
+            .B-1 b{
+                margin-left: 40px;
+                font-size: 1.3rem;
+            }
+                
+            .B-2{
+
+                height: 330px;
+                width: 250px;
+                background-image: url("B-2.jfif");
+                background-size: contain;
+                background-repeat: no-repeat;
+                
+                margin-top:10px ;
+                padding-top: 20px;
+                
+                
+                
+                }
+                
+                .B-2 p{
+                    margin-top: 240px;
+                    font-size: 1.2rem;
+                    margin-left: 40px;
+                }
+                .B-2 b{
+                    margin-left: 40px;
+                    font-size: 1.3rem;
+                }
+                 
+
+                .B-3{
+
+                    height: 330px;
+                    width: 250px;
+                    background-image: url("B-3.jfif");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    
+                    margin-top:10px ;
+                    padding-top: 20px;
+                    
+                    
+                    
+                    }
+                    
+                    .B-3 p{
+                        margin-top: 240px;
+                        font-size: 1.2rem;
+                        margin-left: 40px;
+                    }
+                    .B-3 b{
+                        margin-left: 40px;
+                        font-size: 1.3rem;
+                    }
+                    
+                    .B-4{
+
+                        height: 330px;
+                        width: 250px;
+                        background-image: url("B-4.jfif");
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        
+                        margin-top:10px ;
+                        padding-top: 20px;
+                        
+                        
+                        
+                        }
+                        
+                        .B-4 p{
+                            margin-top: 240px;
+                            font-size: 1.2rem;
+                            margin-left: 40px;
+                        }
+                        .B-4 b{
+                            margin-left: 40px;
+                            font-size: 1.3rem;
+                        }
+                          
+
+                        .B-5{
+
+                            height: 330px;
+                            width: 250px;
+                            background-image: url("B-5.jfif");
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            
+                            margin-top:10px ;
+                            padding-top: 20px;
+                            
+                            
+                            
+                            }
+                            
+                            .B-5 p{
+                                margin-top: 240px;
+                                font-size: 1.2rem;
+                                margin-left: 40px;
+                            }
+                            .B-5 b{
+                                margin-left: 40px;
+                                font-size: 1.3rem;
+                            }
+                            
+
+                            .B-6{
+
+                                height: 330px;
+                                width: 250px;
+                                background-image: url("B-6.jfif");
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                
+                                margin-top:10px ;
+                                padding-top: 20px;
+                                
+                                
+                                
+                                }
+                                
+                                .B-6 p{
+                                    margin-top: 240px;
+                                    font-size: 1.2rem;
+                                    margin-left: 40px;
+                                }
+                                .B-6 b{
+                                    margin-left: 40px;
+                                    font-size: 1.3rem;
+                                }
+                                .Beauty-food-more h2{margin-top: 25px;
+                                    margin-left: 5px;}
+ /* FOOTER-1 */
+ .footer-container{
+height: 50px;
+width:100%;
+background-color: #f0f5ff;
+}
+
+.footer-1{
+height:300px;
+width: 100%;
+background-color: white;
+}
+
+.footer-1 h2{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.footer-1 p{
+    margin-left:20px ;
+    margin-bottom: 20px;
+}
+.footer-2{
+    height:300px ;
+    width:100%;
+    background-color: black;
+    color: white;
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+ul{
+    margin-top: 10px;
+    
+    
+               }
+                                                     
+        ul a{display: block;
+        font-size: 0.85rem;
+        margin-top: 10px;
+        color: #dddddd;
+        }
+ .footer-3{
+background-color: black;
+border-top: 2px solid #f0f5ff;
+height: 100px;
+display: flex;
+justify-content: space-evenly;
+color: #dddddd;
+align-items: center;
+
+ } 
+ 
+ 
+
+ .f-1{
+    display: flex;
+ }
+ .f-2{
+    display: flex;
+ } 
+ .f-3{
+    display: flex;
+ }
+  .f-4{
+    display: flex;
+ } 
+ .f-5{
+    display: flex;
+ }
+ .f-1 i{
+    margin-right: 5px;
+    color: rgb(255, 196, 0);
+ }
+
+
+ .f-2 i{
+    margin-right: 5px;
+    color: rgb(255, 196, 0);
+ }
+ .f-3 i{
+    margin-right: 5px;
+    color: rgb(255, 196, 0);
+ }
+ .f-4 i{
+    margin-right: 5px;
+    color: rgb(255, 196, 0);
+ }
+ .f-5 i{
+    margin-right: 5px;
+    color: rgb(255, 196, 0);
+ }
